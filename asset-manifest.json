@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/racheljiang12.github.io/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/racheljiang12.github.io/static/js/main.0cbb9d17.chunk.js",
+    "main.js.map": "/racheljiang12.github.io/static/js/main.0cbb9d17.chunk.js.map",
+    "runtime-main.js": "/racheljiang12.github.io/static/js/runtime-main.0e70f21d.js",
+    "runtime-main.js.map": "/racheljiang12.github.io/static/js/runtime-main.0e70f21d.js.map",
+    "static/js/2.dd699ba1.chunk.js": "/racheljiang12.github.io/static/js/2.dd699ba1.chunk.js",
+    "static/js/2.dd699ba1.chunk.js.map": "/racheljiang12.github.io/static/js/2.dd699ba1.chunk.js.map",
+    "static/js/3.c75306e9.chunk.js": "/racheljiang12.github.io/static/js/3.c75306e9.chunk.js",
+    "static/js/3.c75306e9.chunk.js.map": "/racheljiang12.github.io/static/js/3.c75306e9.chunk.js.map",
+    "index.html": "/racheljiang12.github.io/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/racheljiang12.github.io/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.dd699ba1.chunk.js.LICENSE.txt": "/racheljiang12.github.io/static/js/2.dd699ba1.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/racheljiang12.github.io/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e70f21d.js",
+    "static/js/2.dd699ba1.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.0cbb9d17.chunk.js"
+  ]
+}
