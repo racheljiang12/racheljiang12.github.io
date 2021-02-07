@@ -33,15 +33,21 @@ const Webamp = window.Webamp;
                 ],
   
     initialSkin: {
-        url: "https://cdn.webampskins.org/skins/137eebfe958c9034356e6fd912c4052e.wsz"
+        // winsows XP wallpaper
+        // url: "https://cdn.webampskins.org/skins/137eebfe958c9034356e6fd912c4052e.wsz"
+        // skyamp cornflower blue
+        url: "https://cdn.webampskins.org/skins/a9674ec42c37fb74e331c97ea8a47162.wsz"
  },
 })
 
         // Returns a promise indicating when it's done loading.
         webamp.renderWhenReady(document.getElementById('app'));
 
+// new fairyDustCursor({colors: ["#D7F460"]}); 
 // new fairyDustCursor({colors: ["#11C1BC", "#F482EC", "#2662EA", "#D7F460"]}); 
 
 emojiCursor({emoji: ["🐬", "🌀", "🌴", "🐠", "✈️"]});
+
+// emojiCursor({emoji: ["🧼"]});
 
 new ghostCursor();

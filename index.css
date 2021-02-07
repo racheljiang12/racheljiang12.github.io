@@ -1,3 +1,33 @@
+@font-face {
+	font-family: myFont;
+	src: url('./fonts/Redaction50-Italic.otf');
+}
+
+
+body {
+  background-color: royalblue;
+  background-image: url("./images/background2.jpg");
+  background-size: cover;
+}
+
+a {
+	font-family: "myFont";
+	font-size:14pt;
+	color: white;
+	text-decoration: none
+}
+
+/* SELECTORS */
+
+a:hover {
+	color: #D7F460;
+}
+
+a:active {
+	color: #F482EC;
+}
+
+/* CLASSES */
 .cursor-style {
   font-family: monospace;
   position: absolute;
@@ -5,8 +35,4 @@
   font-size: 14px;
   left: 20px;
   top: 20px;
-}
-
-body {
-  background-color: royalblue;
 }
