@@ -36,6 +36,8 @@ IT'S CHÖNKY BABY
     />
 
     <link rel="stylesheet" href="./index.css" />
+    <!-- linking adobe fonts -->
+    <link rel="stylesheet" href="https://use.typekit.net/nlv4aff.css">
 
     <!-- <script src="./js/cursor-efsfects-master/src/fairyDustCursor.js"></script> -->
     <script src="./js/cursor-effects-master/src/emojiCursor.js"></script>
@@ -44,11 +46,19 @@ IT'S CHÖNKY BABY
 
 	<script async src="./index.js"></script>
 
+	<script type="text/javascript">
+		function toggleMailingList() {
+		  var mailingListUI = document.getElementById("mc_embed_signup");
+		  
+		  if (mailingListUI.style.display === "block") {
+		    mailingListUI.style.display = "none";
+		  } else {
+		    mailingListUI.style.display = "block";
+		  }
+		}
+	</script>
+
   </head>
-
-
-
-
 
   <body>
 
@@ -59,8 +69,22 @@ IT'S CHÖNKY BABY
 	  <b><a href="https://www.instagram.com/chonkyofficial" target="_blank">Instagram</a></b><br>
 	  <b><a href="https://soundcloud.com/chonkyofficial" target="_blank">Soundcloud</a></b><br>
 	  <b><a href="https://twitter.com/chonkyofficial" target="_blank">Twitter</a></b><br>
+
+	  <b><a onclick="toggleMailingList()" for="mce-EMAIL">Join Mailing List</a></b><br>
 	</div>
-	
+
+	<!-- Begin Mailchimp Signup Form -->
+	 <div id="mc_embed_signup">
+		<form action="https://chonkyofficial.us1.list-manage.com/subscribe/post?u=57d284352342cb87e60fb1e10&amp;id=36f6367f2b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+
+				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="YOUR EMAIL" required>
+			    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+			    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_57d284352342cb87e60fb1e10_36f6367f2b" tabindex="-1" value=""></div>
+			    <div class="clear"><input type="submit" value="SUBSCRIBE" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+		</form>
+	</div>
+	<!--End mc_embed_signup-->
+
     <div id="app" style="height: 50vh">
         <!-- Webamp will attempt to center itself within this div -->
     </div>

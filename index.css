@@ -1,8 +1,12 @@
-@font-face {
-	font-family: myFont;
-	src: url('./fonts/Redaction50-Italic.otf');
+* {
+  letter-spacing: 0.5pt;
 }
-
+  @font-face {
+	font-family: JazzBall;
+	src: url('./fonts/Jazz_Ball_Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   background-color: royalblue;
@@ -10,11 +14,17 @@ body {
   background-size: cover;
 }
 
+<<<<<<< Updated upstream
 a {
 	font-family: "myFont";
 	font-size: 10pt;
+=======
+a, label, #mce-EMAIL, #mc-embedded-subscribe{
+	font-family: "JazzBall";
+	font-size:14pt;
+>>>>>>> Stashed changes
 	color: white;
-	text-decoration: none
+	text-decoration: none;
 }
 
 /* SELECTORS */
@@ -36,3 +46,24 @@ a:active {
   left: 20px;
   top: 20px;
 }
+<<<<<<< Updated upstream
+=======
+
+/* IDs */
+#mce-EMAIL {
+  background-color: rgba(255,255,255,0.8);
+  color:black; 
+  font-size: 12pt; 
+}
+
+#mc-embedded-subscribe {
+  background-color: #11C1BC;
+  color:white;
+  font-size: 12pt;
+}
+
+#mc_embed_signup {
+  display: none;
+}
+
+>>>>>>> Stashed changes
