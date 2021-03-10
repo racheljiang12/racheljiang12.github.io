@@ -14,15 +14,9 @@ body {
   background-size: cover;
 }
 
-<<<<<<< Updated upstream
-a {
-	font-family: "myFont";
-	font-size: 10pt;
-=======
 a, label, #mce-EMAIL, #mc-embedded-subscribe{
 	font-family: "JazzBall";
 	font-size:14pt;
->>>>>>> Stashed changes
 	color: white;
 	text-decoration: none;
 }
@@ -46,8 +40,6 @@ a:active {
   left: 20px;
   top: 20px;
 }
-<<<<<<< Updated upstream
-=======
 
 /* IDs */
 #mce-EMAIL {
@@ -65,5 +57,3 @@ a:active {
 #mc_embed_signup {
   display: none;
 }
-
->>>>>>> Stashed changes
